@@ -7,8 +7,8 @@ export const personalInfo = {
   phone: '+91 8097690289',
   email: 'vivaanojha33@gmail.com',
   availability: 'Immediate Joiner',
-  linkedin: 'https://www.linkedin.com/in/vivaanojha',
-  github: 'https://github.com/vivaanojha33',
+  linkedin: 'https://www.linkedin.com/in/vivaan-ojha-23b850136/',
+  github: 'https://github.com/vivaanojha33-sys',
   resumeUrl: '/resume.pdf',
   yearsOfExperience: 7,
 };
