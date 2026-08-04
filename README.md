@@ -45,10 +45,12 @@ npm run dev
 
 ## Production Deployment (Render)
 
-1. Build the client: `npm run build --prefix client`
-2. Set `NODE_ENV=production` on the server
-3. Deploy server — it serves the built client from `client/dist`
-4. Optionally configure SMTP env vars for contact form emails
+1. Connect repo `vivaanojha33-sys/portfolio` on Render
+2. **Build Command:** `npm run build:render`
+3. **Start Command:** `NODE_ENV=production node server/dist/index.js`
+4. Set `NODE_ENV=production` in environment variables
+
+> **Note:** Use `build:render` (not plain `npm install`) so devDependencies like Vite and TypeScript are installed even when `NODE_ENV=production`.
 
 ## Customize
 
